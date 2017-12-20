@@ -1,0 +1,59 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-variant: normal;
+  font-weight: 100;
+}
+
+h3{
+  text-align: left;
+}
+
+p{
+  text-align: left;
+}
+
+.header{
+  width:99%;
+  height:75px;
+  border-width: 0 0 1px 0;
+  border-style:solid;
+  margin:auto;
+}
+
+.headerButton{
+  transition: all 0.2s ease-in-out;
+  width:24%;
+  text-align: center;
+  display: inline-block;
+  padding-top: 18px;
+  font-size: 30px;
+  margin:auto;
+}
+
+.headerButton:hover{
+  color:rgb(204,0,0);
+}
+
+.inline {
+  text-align: center;
+}
+
+.projectWindow{
+  margin: 100px 30px;
+  width: 400px;
+  height: 600px;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+}
+
+.projectImage{
+  height: 200px;
+  width: 400px;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+}
+
+.projectDescription{
+  padding: 0 10px 0 10px;
+}
