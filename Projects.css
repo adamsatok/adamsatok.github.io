@@ -51,7 +51,7 @@ a {
 }
 
 .projectWindow{
-  margin: 50px 2% 40px;
+  margin: 80px 2% 80px;
   width: 300px;
   height: 550px;
   display: inline-block;
@@ -68,7 +68,7 @@ a {
 .projectDescription{
   width: 280px;
   height: 350px;
-  margin-top: 10px;
+  margin-top: 40px;
   padding: 0 10px 0 10px;
   border-style: solid;
   border-width: 1px;
