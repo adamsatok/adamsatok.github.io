@@ -26,6 +26,7 @@ html, body{
 
 .headerButton:hover{
   color:rgb(204,0,0);
+  text-decoration: underline;
 }
 
 a {

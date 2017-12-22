@@ -13,8 +13,13 @@ p{
   margin: 8px 0;
 }
 
+a:hover{
+  text-decoration: underline;
+}
+
 .inline {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .projectWindow{
@@ -33,7 +38,7 @@ p{
 }
 
 .projectDescription{
-  display: table;
+  position: relative;
   width: 280px;
   height: 350px;
   margin-top: 40px;
@@ -41,4 +46,19 @@ p{
   border-style: solid;
   border-width: 1px;
   text-align: left;
+}
+
+.button{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100px;
+  margin-left: -51px;
+  margin-bottom: 30px;
+  color: black;
+  border: none;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+  border: black solid 1px;
 }
