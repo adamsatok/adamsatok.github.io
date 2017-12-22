@@ -13,8 +13,12 @@ p{
   margin: 8px 0;
 }
 
-a:hover{
+a.projectTitle:hover{
   text-decoration: underline;
+}
+
+ul{
+  padding-left:15px;
 }
 
 .inline {
@@ -38,11 +42,11 @@ a:hover{
 }
 
 .projectDescription{
+  margin-top: -5px;
   position: relative;
-  width: 280px;
+  width: 270px;
   height: 350px;
-  margin-top: 40px;
-  padding: 0 10px 0 10px;
+  padding: 0 15px 0 15px;
   border-style: solid;
   border-width: 1px;
   text-align: left;
