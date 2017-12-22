@@ -1,42 +1,9 @@
-body{
-	font-family: 'Roboto', sans-serif;
-	font-variant: normal;
-	font-weight: 100;
-}
-
 h1{
 	margin-top:30px;
 	text-align: center;
 	font-size: 42px;
 	font-weight: 100;
 	margin: 20px 0 0px;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-.header{
-	width:99%;
-	height:75px;
-	border-width: 0 0 1px 0;
-	border-style:solid;
-	margin:auto;
-}
-
-.headerButton{
-	transition: all 0.2s ease-in-out;
-	width:24%;
-	text-align: center;
-	display: inline-block;
-	padding-top: 18px;
-	font-size: 30px;
-	margin:auto;
-}
-
-.headerButton:hover{
-	color:rgb(204,0,0);
 }
 
 .centerTitle {
@@ -58,24 +25,4 @@ a {
 	font-size: 32px;
 	text-align: center;
 	white-space:nowrap;
-}
-
-.footer{
-  position:absolute;
-  bottom:3%;
-  left: 50%;
-  transform: translate(-50%,0);
-  margin:auto;
-  text-align: center;
-}
-
-.logo{
-  transition: all 0.2s ease-in-out;
-  padding: 10px 20px 0;
-  width:40px;
-  height:40px;
-}
-
-.logo:hover{
-transform: scale(1.1);
 }
