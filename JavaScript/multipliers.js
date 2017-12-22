@@ -81,10 +81,10 @@ function unlockMulitpliers(){
 	for(i=1;i<5;i++){
 		if(data[i]){
 			if(unlockedData[i]==1){
-				document.getElementById("multiplier" + i).style.background= "orange url('graphics/logos/logo" + data[i] + ".png') no-repeat center";
+				document.getElementById("multiplier" + i).style.background= "orange url('Graphics/logos/logo" + data[i] + ".png') no-repeat center";
 			}
 			else{
-				document.getElementById("multiplier" + i).style.background= "grey url('graphics/logos/logo" + data[i] + ".png') no-repeat center";
+				document.getElementById("multiplier" + i).style.background= "grey url('Graphics/logos/logo" + data[i] + ".png') no-repeat center";
 			}
 			document.getElementById("multiplier" + i).style.visibility= "visible";
 			document.getElementById("multiplierPopUp"+i).innerHTML = "Price: "+multPrice[dataPos[i]] +"<br>"+ descriptions[dataPos[i]];
