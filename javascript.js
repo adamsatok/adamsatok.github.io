@@ -15,11 +15,13 @@ $(document).ready(function () {
 			break;
 			case "BrandSpark": highlight = BrandSpark;
 			break;
+			case "Ball Dash": highlight = BallDash;
+			break;
 			case "HatetheWait": highlight = HatetheWait;
 			break;
 			case "CubicleCoder": highlight = CubicleCoder;
 			break;
-			case "Education": highlightable = false;
+			case "Education": highlight = Education;
 			break;
 			case "Leadership": highlightable = false;
 			break;
@@ -28,7 +30,6 @@ $(document).ready(function () {
 		$(this).css("border-width", "0 0 0 5px");
 		if (highlightable){
 			$(highlight).css("background-color", "rgb(204, 0, 0)");
-
 		}
 	}, function(){
 		$(this).css("border-width", "0 5px 0 0");
@@ -37,10 +38,11 @@ $(document).ready(function () {
 	});
 });
 
-Mitre = "#Ruby, #HTML, #CSS, #JS, #SQL, #RubyonRails, #Linux, #MacOS, #Git, #SequelPro, #SublimeText";
-Metroland = "#PHP, #HTML, #CSS, #JS, #SQL, #Python, #Yii, #Linux, #MacOS, #Git, #SequelPro, #Selenium, #SublimeText";
-BrandSpark = "#PHP, #HTML, #CSS, #JS";
-HatetheWait = "#PHP, #HTML, #CSS, #JS, #Git, #MacOS, #Linux, #SublimeText";
-CubicleCoder = "#Java, #HTML, #CSS, #JS, #Git, #MacOS, #Linux, #SublimeText";
-Education = "#C, #MacOS, #Linux, #SublimeText";
+Mitre = "#Ruby, #HTML, #CSS, #JS, #SQL, #RubyonRails, #PHP, #Linux, #Git, #SequelPro, #Vim";
+Metroland = "#PHP, #HTML, #CSS, #JS, #SQL, #Python, #Yii, #Linux, #Git, #SequelPro, #Selenium, #Vim";
+BrandSpark = "#PHP, #HTML, #CSS, #JS, #Java, #SQL, #Git";
+BallDash = "#Swift, #Git"
+HatetheWait = "#PHP, #HTML, #CSS, #JS, #SQL, #Git, #Linux, #Vim";
+CubicleCoder = "#HTML, #CSS, #JS, #Git, #Linux, #Vim";
+Education = "#C, #C2, #Linux, #Vim, #Git";
 Leadership = "";

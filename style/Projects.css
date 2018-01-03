@@ -1,0 +1,68 @@
+h3{
+  text-align: left;
+  margin: 8px 0 3px;
+}
+
+h4{
+  text-align: left;
+  margin: 0;
+}
+
+p{
+  text-align: left;
+  margin: 8px 0;
+}
+
+a.projectTitle:hover{
+  text-decoration: underline;
+}
+
+ul{
+  padding-left:15px;
+}
+
+.inline {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.projectWindow{
+  margin: 80px 2% 40px;
+  width: 300px;
+  height: 550px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.projectImage{
+  height: 200px;
+  width: 300px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.projectDescription{
+  margin-top: -5px;
+  position: relative;
+  width: 270px;
+  height: 350px;
+  padding: 0 15px 0 15px;
+  border-style: solid;
+  border-width: 1px;
+  text-align: left;
+}
+
+.button{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100px;
+  margin-left: -51px;
+  margin-bottom: 30px;
+  color: black;
+  border: none;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+  border: black solid 1px;
+}
