@@ -48,10 +48,6 @@ a:visited {
 	color:inherit;
 }
 
-a:hover {
-	text-decoration: underline;
-}
-
 .header_area{
 	width:90%;
 	margin: 20px auto 10px;

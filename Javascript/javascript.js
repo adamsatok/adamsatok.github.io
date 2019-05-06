@@ -9,6 +9,8 @@ $(document).ready(function () {
 	$(".subsection").hover(function(){
 		var highlightable = true;
 		switch (this.id) {
+			case "Zazzle": highlight = Zazzle;
+			break;
 			case "Influitive": highlight = Influitive;
 			break;
 			case "Mitre": highlight = Mitre;
@@ -41,6 +43,8 @@ $(document).ready(function () {
 		$(highlight).css("background-color", "#8c8c8c");
 	});
 });
+
+Zazzle = "#C3, #SQL, #HTML, #CSS, #JS, #Net, #Git, #AWS, #Jenkins, #Linux";
 Influitive = "#Ruby, #JS, #HTML, #CSS, #SQL, #RubyonRails, #Linux, #Git, #Vim, #Postgres, #Docker";
 Mitre = "#Ruby, #HTML, #CSS, #JS, #SQL, #RubyonRails, #PHP, #Linux, #Git, #SequelPro, #Vim";
 Metroland = "#PHP, #HTML, #CSS, #JS, #SQL, #Python, #Yii, #Linux, #Git, #SequelPro, #Selenium, #Vim";
