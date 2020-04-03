@@ -8,18 +8,27 @@ html, body{
 
 .header{
   width:99%;
-  height:75px;
-  border-width: 0 0 1px 0;
+  height:5em;
+  border-width: 0 0 0.07em 0;
   border-style:solid;
   margin:auto;
 }
 
 .headerButton{
-  width:24%;
+  width:33%;
   text-align: center;
   display: inline-block;
-  padding-top: 18px;
-  font-size: 30px;
+  padding-top: 0.5em;
+  font-size: 2.2em;
+  margin:auto;
+}
+
+.headerButton2{
+  width:auto%;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.5em;
+  font-size: 2.2em;
   margin:auto;
 }
 

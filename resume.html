@@ -14,7 +14,6 @@
   <div class = "header"> 
       <a href = "index.html" class = "headerButton"> Home </a>
       <a href = "resume.html" class = "headerButton"> Resume </a>
-      <a href = "freelance.html" class = "headerButton"> Freelance </a>
       <a href = "projects.html" class = "headerButton"> Projects </a>
     </div>
 
@@ -22,7 +21,7 @@
     <div class = "header_area">
       <div class = "align_left">
         <h1>Adam Satok</h1>
-        <h3-100> Waterloo University | Computer Science | 4A Year </h3-100>
+        <h3-100> University of Waterloo - Computer Science, Business Option </h3-100>
       </div>
       <div class = "header_right">
         <a href="resume.pdf"><h3-100 > Printable Version </h3-100> <br></a>
@@ -36,35 +35,41 @@
       <hr>
       <div class="inline1">
         <h2> Languages </h2> <br> 
+        <div class = "box" id="Python"> Python </div>
+        <div class = "box" id="Golang"> Golang </div>
         <div class = "box" id="Ruby"> Ruby </div>
         <div class = "box" id="JS"> JS </div>
-        <div class = "box" id="Python"> Python </div>
-        <div class = "box" id="Swift"> Swift </div>
+        
         <br>
         <div class = "box" id="C"> C </div>
         <div class = "box" id="C2"> C++ </div>
         <div class = "box" id="C3"> C# </div>
         <div class = "box" id="Java"> Java </div>
         <br>
+        <div class = "box" id="Swift"> Swift </div>
         <div class = "box" id="HTML"> HTML </div>
         <div class = "box" id="CSS"> CSS </div>
         <div class = "box" id="SQL"> SQL </div>
-        <div class = "box" id="PHP"> PHP </div>
+
       </div>
 
       <div class="inline1">
         <h2>Technologies</h2> <br>
-        <div class = "box" id="RubyonRails"> Rails </div>
-        <div class = "box" id="Git"> Git </div>
+        <div class = "box" id="AWS"> AWS </div>
         <div class = "box" id="Linux"> Linux </div>
+        <div class = "box" id="gRPC"> gRPC </div>
+        <br>
+        
+        <div class = "box" id="Git"> Git </div>
+        <div class = "box" id="React"> React </div>
+        <div class = "box" id="Kube"> Kubernetes </div>
         <br>
         <div class = "box" id="Unity"> Unity </div>
         <div class = "box" id="Net"> .NET </div>
-        <div class = "box" id="AWS"> AWS </div>
-        <br>
-        <div class = "box" id="Docker"> Docker </div>
-        <div class = "box" id="Jenkins"> Jenkins </div>
-        <div class = "box" id="Selenium"> Selenium </div>
+        <div class = "box" id="RubyonRails"> Rails </div>
+        
+        
+        
         <br>
       </div>
       <hr>
@@ -76,6 +81,36 @@
       <div class = "content_box">
 
         <h4 class = "section_title"> Work Experience </h4>
+        <div class = "subsection" id = "Postmates">
+          <h5 class = "subsection_title align_left"> Postmates | Software Engineer Intern
+          </h5>
+
+          <h5 class = "subsection_title align_right"> Jan - April 2020 </h5>
+          <div>
+            <h6 class = "subsection_text">
+              • Extended Postmates' tax engine to charge merchants sales tax on commissions, collecting tens of millions of unclaimed tax dollars annually
+              <br>
+              • Migrated Postmates’ tax calculation system to a third-party tax provider (Vertex), improving tax rate accuracy for government compliance
+            </h6>
+          </div>
+        </div>
+
+
+
+        <div class = "subsection" id = "Amazon">
+          <h5 class = "subsection_title align_left"> Amazon | Software Development Engineer Intern
+          </h5>
+
+          <h5 class = "subsection_title align_right"> Sept - Dec 2019 </h5>
+          <div>
+            <h6 class = "subsection_text">
+              • Developed an internal console for merchant data in the Fulfilment by Amazon network. Created a serverless architecture by leveraging Lambdas for logic and data calls while storing pre-compiled react assets in S3
+              <br>
+              • Reduced application’s cold start time from 30+ seconds to 200 milliseconds by caching configs in DynamoDB
+              <br>
+            </h6>
+          </div>
+        </div>
 
         <div class = "subsection" id = "Zazzle">
           <h5 class = "subsection_title align_left"> Zazzle | Server Software Engineer
@@ -84,11 +119,9 @@
           <h5 class = "subsection_title align_right"> Jan - April 2019 </h5>
           <div>
             <h6 class = "subsection_text">
-              • Developed internal tools, increasing the ability to modify Zazzle's marketplace and product manufacturing data
+              • Engineered a caching system to pre-render designs, eliminating order processing delays of up to 5 minutes
               <br>
-              • Engineered a caching system to pre-render large images, eliminating live render delays of up to 5 minutes long
-              <br>
-              • Created a portal to edit product previews with a custom deployment and rollback mechanism, allowing non-technical employees to work with previews and reducing errors
+              • Developed internal tools, allowing for live modification of Zazzle's marketplace and product manufacturing data
             </h6>
           </div>
         </div>
@@ -109,45 +142,6 @@
             </h6>
           </div>
         </div>
-
-        <div class = "subsection" id = "Mitre">
-          <h5 class = "subsection_title align_left"> Mitre Media | Ruby on Rails Developer Intern</h5>
-
-          <h5 class = "subsection_title align_right"> September - December 2017 </h5>
-          <div>
-            <h6 class = "subsection_text">
-              • Added over 20 new filters to the dividend.com screener, tripling its page views from 10,000 per day and allowing users to easily find stocks that match their needs
-              <br>
-              • Restructured the dividend.com database by introducing caching, improving SQL queries, and removing inefficient joins, saving hundreds of thousands of requests per day and decreasing latency by up to 50% on many pages
-              <br>
-              • Built an automated system that mathematically ranks dividend paying stocks using ruby scripts
-            </h6>
-          </div>
-        </div>
-
-        <div class = "subsection" id = "Metroland">
-          <h5 class = "subsection_title align_left"> Metroland Media | Software Engineer in Test Intern</h5>
-
-          <h5 class = "subsection_title align_right">January - April 2017 </h5>
-
-          <h6 class = "subsection_text">
-            • Built a dynamic suite of Selenium Python scripts to perform an automatic regression test on save.ca covering 130 test cases and saving 20+ hours a week of manual testing
-            <br>
-            • Engineered a new testing workflow which significantly reduced the number of bugs and hotfixes
-          </h6>
-        </div>
-
-        <div class = "subsection" id="BrandSpark">
-          <h5 class = "subsection_title align_left"> BrandSpark International | Software Engineer Intern</h5>
-
-          <h5 class = "subsection_title align_right">Summer 2016 </h5>
-
-          <h6 class = "subsection_text">
-            • Created a 3D packaging viewer which was presented at the Best New Product Awards Show to promote BrandSpark to over 500 company representatives
-            <br>
-            • Updated the company’s online image by redesigning the front end of BrandSpark's client portal website
-          </h6>
-        </div>
       </div>
 
       <hr>
@@ -155,10 +149,10 @@
 
         <h4 class = "section_title"> Projects </h4>
 
-        <div class = "subsection" id = "Game Theory">
-          <h5 class = "subsection_title align_left"> Game Theory Machine Learning Model </h5>
+        <div class = "subsection" id = "GameTheory">
+          <h5 class = "subsection_title align_left"> The Logical Prisoner </h5>
 
-          <h5 class = "subsection_title align_right"> March 2019</h5>
+          <h5 class = "subsection_title align_right"> Jan 2019 - Feb 2020</h5>
 
           <h6 class = "subsection_text">
             • Developed a model that generates a winning strategy for the repeated prisoner's dilemma given a pool of strategies
@@ -190,30 +184,6 @@
             • Working with an AppLovin executive to develop game progression and a marketing strategy
           </h6>
         </div>
-
-        <div class = "subsection" id = "HatetheWait">
-          <h5 class = "subsection_title align_left"> Hate the Wait | Web App </h5>
-
-          <h5 class = "subsection_title align_right"> February 2017 - April 2017</h5>
-
-          <h6 class = "subsection_text">
-            • Collaborated with two other programmers to develop hatethewait.ca, a web application used to give doctors a tool to automatically notify patients of delays
-            <br>
-            • Allowed users to easily sign up for notifications on appointment delays through a simple user interface
-          </h6>
-        </div>
-
-        <div class = "subsection" id = "CubicleCoder">
-          <h5 class = "subsection_title align_left"> Cubicle Coder | Javascript Game </h5>
-
-          <h5 class = "subsection_title align_right"> January - March 2017</h5>
-
-          <h6 class = "subsection_text">
-            • Independently created an online Javascript clicker game where the main character is a programmer seeking to upgrade and optimize his work cubicle
-            <br>
-            • Players must strategize where to allocate resources as inefficient purchasing will be punished in the end game
-          </h6>
-        </div>
       </div>
 
       <hr>
@@ -225,8 +195,8 @@
           <h5 class = "subsection_title"> University of Waterloo - Present Bachelor of Computer Science - 4th Year </h5>
 
           <h6 class = "subsection_text"> 
-            • Maintaining a 3.52/4.0 GPA <br>
-            • Relevant Courses: Algorithms, Data Structures, Operating Systems, AI, Databases, Combinatorics
+            • Maintaining a 3.56/4.0 GPA <br>
+            • Relevant Courses: Networks, Security, Operating Systems, Algorithms, Data Structures, AI, Combinatorics 
           </h6>
         </div>
       </div>
@@ -237,17 +207,10 @@
 
         <div class = "subsection" id = "Leadership">
           <h6 class = "subsection_text">
-            • Co-Organizer of the 2018 AEPi Charity Mile event which raised over $20,000 for B’nai Brith Canada
+            • Co-Organizer of the 2018 AEPi Charity Run which raised over $20,000 for B’nai Brith Canada
             <br>
-            • Independent freelance filmmaker for family and corporate events, 2012 - present
-            <br>
-            • Representative for Residence Council, University of Waterloo, 2015 - 2016
-            <br>
-            • Brother of AEPI Fraternity 2016 - present
-            <br>
-            • University of Waterloo Intramural Ball Hockey, Ice Hockey, and Soccer 2015 - present
-            <br>
-            • Captain and Head of Programming, FIRST Robotics Team, Tanenbaum CHAT 2014 - 2015
+            • Varsity ball hockey, Intramural ice hockey and soccer, biking, indie game development
+
           </h6>
         </div>
       </div>
